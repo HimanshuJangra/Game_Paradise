@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+	
+	function valid()
+	{
+      var pas=document.getElementById("pass").value;
+      var repas=document.getElementById("pass2").value;
+      if(!(pas===repas))
+      {
+      	alert("not correct ");
+      }
+      else{
+      	location.href("F:\d\h\mc.html");
+      }
+  }
+</script>
+	<style type="text/css">
+	    *{margin:auto;color:black;font-size:25px;font-family:sans-serif;text-align:center;}
+	    body{background-image:url(../i/mortalCombatX.jpg);background-size:cover;background:blur(3px);}
+		.main{height:450px;width:500px;border:0px;border-radius:8px;background-color:rgba(255,255,255,0.1);position:absolute;left:0;right:0;top:100px;color:rgba(0,0,0,0.8);}
+		.content{background-color:rgba(255,255,255,0);height:auto;width:450px;margin-top:30px;color:blue;font-size:15px;}
+		.name{border:0px;border-radius:3px;background-color:rgba(0,0,0,1);margin-bottom:5px;height:30px;width:250px;color:white;font-size:15px;}
+		.password{border:0px;border-radius:3px;background-color:rgba(0,0,0,1);margin-bottom:5px;height:30px;width:250px;color:white;font-size:15px;}
+		.button{margin-top:20px;width:55px;border:0px;border-radius:5px;background-color:lightgreen;color:white;font-size:15px;height:30px;}
+		.Email{border:0px;border-radius:3px;background-color:rgba(0,0,0,1);margin-bottom:5px;height:30px;width:250px;color:white;font-size:15px;}
+		.mob{border:0px;border-radius:3px;background-color:rgba(0,0,0,1);margin-bottom:5px;height:30px;width:250px;color:white;font-size:15px;}
+        .termbox{border:1px solid red;}
+		a{text-decoration:none;color:rgba(0,0,0,0.98);font-size:14px;font-weight:10px;}
+		.password2{border:0px;border-radius:3px;background-color:rgba(0,0,0,1);margin-bottom:5px;height:30px;width:250px;color:white;font-size:15px;}
+</style>
+<script>
+function f1(){
+var empt=document.forms["form1"]["text1"].value;
+if(empt==""){
+alert(please enter a value);return false;}
+else{alert("Code has accepted");return true;}}
+</script>
+</head>
+<body>
+<div class="main">
+	Signup Page
+	<div class="content"><form method="post" onsubmit="valid()"">
+		<input type="text" class="name" placeholder="Id/UserName" name="rrrr" onsubmit="f1()"><br/>
+		<input type="text" class="Email" placeholder="UserId/Email" name="rrrr"><br/>
+		<input type="text" class="mob" placeholder="mobilenumber" name="rrrr"><br/>
+		<input type="password" id="pass" class="password" maxlength="15" size="12" placeholder="New password" name="rrrr"><br/>
+		<input type="password" id="pass2"  class="password2" maxlength="15" size="12" placeholder="Confirm password" name="rrrr"><br/>
+		<input type="checkbox" class="termbox"><a href="#" style="text-decoration:none;" name="rrrr">Terms and Conditions</a><br/>
+		<input type="submit" class="button" value="Signup" name="rrrr">
+	</form>
+	</div>
+</div>
+
+</body>
+</html>

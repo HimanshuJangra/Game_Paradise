@@ -1,0 +1,106 @@
+	*{margin:0;}
+
+	body{background-color:rgba(0,0,0,0.8);}
+    
+    .cont1{width:100%;height:auto;position:relative;}
+
+	.topBar{width:100%;height:30px;background-color:rgba(255,0,0,0.6);position:fixed;z-index:1;top:0px;border:0;border-bottom-left-radius:8px;border-bottom-right-radius:8px;color:white;}
+
+	.boxBar{width:100%;height:auto;background-color:blue;position:relative;margin-top:30px;margin-bottom:30px;clear:both;}
+
+	.topBarButton{height:100%;width:75px;background-color:rgba(0,0,0,0);margin-right:10px;float:left;z-index:1;color:white;font-size:15px;font-family:sans-serif;}
+	.topBarIcon{height:75%;width:auto;border-radius:15px;background-color:rgba(0,0,0,0);float:right;margin-left:10px;margin-right:5px;margin-top:3px;cursor:pointer;color:white;color:white;}
+
+	.box1{float:left;background-color:rgba(0,0,0,0);height:500px;width:842px;margin-left:5px;margin-top:5px;margin-bottom:5px;}
+	.box2{float:left;background-color:rgba(0,0,0,0);height:500px;width:320px;margin-right:5px;margin-top:5px;margin-bottom:5px;margin-left:5px;}
+	.box3{float:left;height:310px;width:100%;clear:both;overflow:hidden;}
+	.box4{float:left;background-color:rgba(0,0,0,0);height:185px;width:100%;clear:both;margin-top:5px;}
+	.box5{float:left;background-color:rgba(0,0,0,0);height:185px;width:255px;clear:both;}
+	.box6{float:left;background-color:rgba(0,0,0,0);height:185px;width:255px;margin-left:5px;}
+	.box7{float:left;height:185px;width:322px;margin-left:5px;overflow:hidden;}
+	.box8{float:left;background-image:url(../i/mortalCombatX.jpg);height:90px;width:255px;clear:both;}
+	.box8_1{float:left;background-image:url(../i/mortalCombatX.jpg);height:90px;width:255px;clear:both;margin-top:5px;}
+	.box9{float:left;height:160px;width:320px;clear:both;overflow:hidden;}
+	.box9_1{float:left;height:165px;width:320px;clear:both;margin-top:5px;overflow:hidden;}
+	.box9_2{float:left;height:165px;width:320px;clear:both;margin-top:5px;overflow:hidden;}
+
+	.catBar1{background-color:white;margin-top:5px;height:100px;width:100%;clear:both;}
+	.catBar2{background-color:green;float:left;width:290px;height:100%;margin-left:5px;}
+	.catBar3{background-color:green;float:right;width:283px;height:100%;margin-right:5px;}
+
+	.topBarIcon:hover{background-color:grey;}
+
+	.zoomimage1{height:100%;width:100%;transition: all 350ms ease-in;}
+	.box3:hover .zoomimage1{transform: scale(1.05);transition: all 350ms ease-in;filter:brightness(.5);}
+	.zoomimage2{height:100%;width:100%;transition: all 350ms ease-in;}
+	.box7:hover .zoomimage2{transform: scale(1.05);transition: all 350ms ease-in;filter:brightness(.5);}
+	.zoomimage3{height:100%;width:100%;transition: all 350ms ease-in;}
+	.box9:hover .zoomimage3{transform: scale(1.05);transition: all 350ms ease-in;filter:brightness(.5);}
+	.zoomimage4{height:100%;width:100%;transition: all 350ms ease-in;}
+	.box9_1:hover .zoomimage4{transform: scale(1.05);transition: all 350ms ease-in;filter:brightness(.5);}
+	.zoomimage5{height:100%;width:100%;transition: all 350ms ease-in;}
+	.box9_2:hover .zoomimage5{transform: scale(1.05);transition: all 350ms ease-in;filter:brightness(.5);}
+
+	.topBarIcon1{background-size:cover;background-color:rgba(0,0,0,0);color:white;}
+
+    .box8:hover{opacity:0.8;}
+
+    .box8_1:hover{opacity:0.8;}
+
+    .topBarButton:hover{background-color:rgba(0,0,0,0);color:rgba(255,255,255,0.5);font-size:15px;font-family:sans-serif;}
+
+    .infoBar{width:100%;height:205px;background-color:black;position:relative;clear:both;margin-bottom: 5px;}
+    .infoBar5{height:100%;width:500px;float:left;background-image:url(../i/mortalCombatX.jpg);background-size:cover;clear:right;}
+    .infoBar1{width:125px;height:170px;float:right;margin-right:20px;background-image:url(../i/j/nba4.jpg);background-size:cover;margin-top:20px;
+    border:1px solid white;border-top-left-radius:5px;border-top-right-radius:5px;}
+    .infoBar2{width:125px;height:170px;float:right;margin-right:20px;background-image:url(../i/j/sim3.jpg);background-size:cover;margin-top:20px;
+    border:1px solid white;border-top-left-radius:5px;border-top-right-radius:5px;}
+    .infoBar3{width:125px;height:170px;float:right;margin-right:20px;background-image:url(../i/j/far3.jpg);background-size:cover;margin-top:20px;
+    border:1px solid white;border-top-left-radius:5px;border-top-right-radius:5px;}
+    .infoBar4{width:125px;height:170px;float:right;margin-right:20px;background-image:url(../i/j/crew6.jpg);background-size:cover;margin-top:20px;
+    border:1px solid white;border-top-left-radius:5px;border-top-right-radius:5px;}
+    .infoBar1:hover{opacity:0.5;}
+    .infoBar2:hover{opacity:0.5;}
+    .infoBar3:hover{opacity:0.5;}
+    .infoBar4:hover{opacity:0.5;}
+
+
+/*Text between boxBars*/
+    .overlay1{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;transition: all 350ms ease-in;}
+    .overlaytext1{margin-left:350px;margin-top:190px;color:white;font-size:48px;display:inline-block;}
+    .box3:hover .overlay1{opacity:1;transition: all 350ms ease-in;}
+    .overlay2{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;transition: all 350ms ease-in;}
+    .overlaytext2{margin-left:600px;margin-top:430px;color:white;font-size:40px;z-index:1;display:inline-block;}
+    .box7:hover .overlay2{opacity:1;transition: all 350ms ease-in;}
+    .overlay3{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;transition: all 350ms ease-in;}
+    .overlaytext3{margin-left:935px;margin-top:90px;color:white;font-size:40px;z-index:1;display:inline-block;}
+    .box9:hover .overlay3{opacity:1;transition: all 350ms ease-in;}
+    .overlay4{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;transition: all 350ms ease-in;}
+    .overlaytext4{margin-left:935px;margin-top:250px;color:white;font-size:40px;z-index:1;display:inline-block;}
+    .box9_1:hover .overlay4{opacity:1;transition: all 350ms ease-in;}
+    .overlay5{width:100%;height:100%;opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;transition: all 350ms ease-in;}
+    .overlaytext5{margin-left:935px;margin-top:410px;color:white;font-size:40px;z-index:1;display:inline-block;}
+    .box9_2:hover .overlay5{opacity:1;transition: all 350ms ease-in;}
+
+    /*.maincenter{width:100%;height:300px;background-color:white;clear:both;}
+    .maincenter1{}
+    .maincenter2{}*/
+
+/*doop downs*/
+     .homedrop1{width:100%;height:100%;color:white;}
+    .homedrop2{display:none;position:absolute;background-color:rgba(255,255,255,1);min-width:90px;height:auto;margin-left:6px;border:1px solid rgba(255,255,255,0.1);}
+    .topBarButton1{height:100%;width:75px;background-color:rgba(0,0,0,0);margin-right:10px;float:left;z-index:1;font-size:15px;font-family:sans-serif;transition: all 350ms ease-in;}
+    .topBarButton1:hover .homedrop2{display:block;transition: all 350ms ease-in;}
+
+    a{text-decoration:none;}
+
+    .homedrop2 a:hover{border-left:2px solid red;transition: all 350ms ease-in;filter:brightness(1.5);}
+    .homedrop2 a{display:block;padding:3px 6px;color:black;transition: all 350ms ease-in;}
+
+    .adder{width:100%;background-color:rgba(0,0,0,0.65);height:300px;clear:both;}
+
+    .font2{text-align:center;font-size:30px;color:white;}
+    .box8{color:grey;}
+    .box8_1{color:grey;}
+
+    a{color:white;}
